@@ -1,0 +1,132 @@
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: aliceblue;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.nav2{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(173, 166, 166);
+    border: 1px 0px 1px 0px solid white;
+    padding: 5px;
+}
+
+.logo{
+    display: flex;
+    z-index: 2;
+    margin-top: 50px;
+    height: 130px;
+}
+
+ul{
+    color: aliceblue;
+}
+
+.ul2{
+    color: aliceblue;
+}
+
+.slider {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambio 20s infinite alternate linear;
+}
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+.imagenes1{
+	background-color: white;
+	border: solid greenyellow 5px;
+	display:flex;
+	justify-content: space-between;
+}
+
+.Imagen1:hover{
+    opacity: .3;
+}
+
+.imagenes2{
+	background-color: white;
+	border: solid greenyellow 5px;
+	display:flex;
+	justify-content: space-between;
+}
+
+.Imagen2:hover{
+    opacity: .3;
+}
+
+.imagenes3{
+	background-color: white;
+	border: solid greenyellow 5px;
+	display:flex;
+	justify-content: space-between;
+}
+
+.Imagen3:hover{
+    opacity: .3;
+}
+
+.imagenes4{
+	background-color: white;
+	border: solid greenyellow 5px;
+	display:flex;
+	justify-content: center;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    border: solid greenyellow 5px;
+}
+
+p{
+    color: beige; 
+}
+
+.par12{
+    color: greenyellow;
+}
